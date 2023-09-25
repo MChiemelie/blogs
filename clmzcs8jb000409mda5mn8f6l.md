@@ -7,7 +7,7 @@ cuid: clmzcs8jb000409mda5mn8f6l
 slug: javascript-intro
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1695589661151/4aad3c04-efeb-47d9-82a2-54f8f7a5d7d3.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1695679602023/82d5c559-2c4b-47c7-a347-470af1eab494.png
-tags: javascript
+tags: javascript, web-development
 
 ---
 

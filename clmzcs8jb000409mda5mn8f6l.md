@@ -42,9 +42,76 @@ Initially, JavaScript was created to function solely within web browsers. Howeve
     <div data-node-type="callout-text">In this example, index.html contains a heading, a paragraph, and a button; styles.css refines the layout of the webpage and improves the visual appeal of the text and buttons. However, the real magic happens with the script.js file, each time you click the button, the displayed quote undergoes a delightful transformation<a target="_blank" rel="noopener noreferrer nofollow" href="http://transformation.Here" style="pointer-events: none">.</a></div>
     </div>
     
-    %[https://codepen.io/Chukwuemelie-Melikam/pen/VwqQqXw] 
+    ```xml
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/styles.css">
+        <title>Quotes 💭</title>
+      </head>
+      <body>
+        <h1>Qoutable Quotes 💭</h1>
+        <p id="quote"></p>
+        <button id="generate">Generate Quote</button>
+        <script src="/script.js"></script>
+      </body>
+    </html>
+    ```
     
-    This code demonstrates a complete web page that dynamically updates a quote each time the "Generate Quote" button is clicked. It combines HTML, CSS, and JavaScript to create a user-friendly and visually appealing experience. The webpage generated can be found on this website.
+    ```css
+    @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap");
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: "IBM Plex Sans", sans-serif !important;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      gap: 2%;
+      text-align: center;
+      background: #e7e7eb;
+    }
+    
+    button {
+      padding: 0.5rem;
+      border: none;
+      border-radius: 0.15rem;
+      color: white;
+      background: rgb(115, 63, 193);
+    }
+    ```
+    
+    ```javascript
+    // A list of quotes
+    const quotes = [
+       "The only way to do great work is to love what you do. - Steve Jobs",
+       "Life is what happens when you're busy making other plans. - John Lennon",
+       "In the middle of every difficulty lies opportunity. - Albert Einstein",
+       "Success is not final, failure is not fatal: It is the courage to continue that counts. - Winston Churchill"
+    ];
+    
+    // Function to generate a random quote
+    function generateQuote() {
+       const randomIndex = Math.floor(Math.random() * quotes.length);
+       const randomQuote = quotes[randomIndex];
+       document.getElementById("quote").textContent = randomQuote;
+    }
+    
+    // Event listener for the button click
+    document.getElementById("generate").addEventListener("click", generateQuote);
+    
+    // Initial quote generation
+    generateQuote();
+    ```
     
     <div data-node-type="callout">
     <div data-node-type="callout-emoji">💡</div>

@@ -7,13 +7,13 @@ cuid: clmzcs8jb000409mda5mn8f6l
 slug: javascript-intro
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1695589661151/4aad3c04-efeb-47d9-82a2-54f8f7a5d7d3.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1695679602023/82d5c559-2c4b-47c7-a347-470af1eab494.png
-tags: javascript, web-development
+tags: javascript, web-development, beginners, intermediate
 
 ---
 
 # **What is JavaScript?**
 
-JavaScript is a *programming language that is used to create dynamic and interactive web pages and web-based applications. It plays a critical role as a primary component of modern web applications and is widely supported by all major web browsers, making it a universal* language on the web.
+JavaScript is a *programming language for creating dynamic and interactive web pages and web-based applications. It plays a critical role as a primary component of modern web applications and is widely supported by all major web browsers, making it a universal* language on the web.
 
 > **JavaScript** is a [programming language](https://en.wikipedia.org/wiki/Programming_language) that is one of the core technologies of the [World Wide Web](https://en.wikipedia.org/wiki/World_Wide_Web), alongside [HTML](https://en.wikipedia.org/wiki/HTML) and [CSS](https://en.wikipedia.org/wiki/CSS). As of 2023, 98.7% of [websites](https://en.wikipedia.org/wiki/Website) use JavaScript on the [client](https://en.wikipedia.org/wiki/Client_(computing)) side for [webpage](https://en.wikipedia.org/wiki/Web_page) behavior, often incorporating third-party [libraries](https://en.wikipedia.org/wiki/Library_(computing)). All major [web browsers](https://en.wikipedia.org/wiki/Web_browser) have a dedicated [JavaScript engine](https://en.wikipedia.org/wiki/JavaScript_engine) to execute the [code](https://en.wikipedia.org/wiki/Source_code) on [users](https://en.wikipedia.org/wiki/User_(computing))' devices.
 > 
